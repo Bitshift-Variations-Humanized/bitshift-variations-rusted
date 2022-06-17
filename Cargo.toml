@@ -1,0 +1,17 @@
+[package]
+name = "rusted-variations"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rusted-variations"
+path = "src/main.rs"
+
+[[bin]]
+name = "extract-notes"
+path = "src/extract_notes.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+midly = "0.5.2"
