@@ -16,7 +16,7 @@ See the [project readme](https://github.com/Bitshift-Variations-Humanized/.githu
   - Contains the song-generating code, both for generating samples, as well as note data
 - `src/main.rs`
   - Contains the main executable, works the same as the original except that it doesn't repeat
-- `src/extract-notes.rs`
+- `src/extract_notes.rs`
   - Contains the executable to extract the song into `bitshift-variations-midified.mid` currently kinda working (See #1)
 - `bitshift-variations-extracted.bin`
   - Raw audio data extracted using [bitshift-variations-extracted](https://github.com/Bitshift-Variations-Humanized/bitshift-variations-extracted), for testing
