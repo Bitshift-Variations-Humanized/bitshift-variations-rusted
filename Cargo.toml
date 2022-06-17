@@ -2,6 +2,7 @@
 name = "rusted-variations"
 version = "0.1.0"
 edition = "2021"
+default-run = "rusted-variations"
 
 [[bin]]
 name = "rusted-variations"
